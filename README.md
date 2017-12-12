@@ -14,7 +14,7 @@ This project calculates the change due from a sale and displays the result in US
 
 Clone this repository by running the following command on terminal:
 
-`git clone https://github.com/larrycustodio/startnow-web101-change-calculator.git`
+`git clone git@github.com:christiangallego/Change-Calculator.git`
 
 Then download the project dependencies by running:
 
