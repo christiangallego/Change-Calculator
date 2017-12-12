@@ -23,19 +23,19 @@ function handleClickEvent() {
   if (changeDue < 100 && changeDue >= 25) {
     let quarters = Math.floor(changeDue / 25);
     changeDue %= 25;
-    document.getElementById("dollars-output").innerHTML = quarters;
+    document.getElementById("quarters-output").innerHTML = quarters;
   }
   // dimes
   if (changeDue < 25 && changeDue >= 10) {
     let dimes = Math.floor(changeDue / 10);
     changeDue %= 10;
-    document.getElementById("quarters-output").innerHTML = dimes;
+    document.getElementById("dimes-output").innerHTML = dimes;
   }
   // nickels
   if (changeDue < 10 && changeDue >= 5) {
     let nickels = Math.floor(changeDue / 5);
     changeDue %= 5;
-    document.getElementById("dimes-output").innerHTML = nickels;
+    document.getElementById("nickels-output").innerHTML = nickels;
   }
   // pennies
   if (changeDue >= 1 && changeDue < 5) {
