@@ -8,8 +8,11 @@ function handleClickEvent() {
   // get the values from the input fields and pass into calculateChange method as arguments
   let tendered = document.getElementById("amount-received").value;
   let cost = document.getElementById("amount-due").value;
+  if (tendered === "" || cost === "") {
+    alert("Please enter a number to begin the program.");
+  } 
   let changeDue = calculateChange(cost, tendered);
-
+  
   // dollars
   if (changeDue >= 100) {
     // convert dollars due back to a count of one. Repeat for each denomination. e.g., 400 === 4

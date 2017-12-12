@@ -3,7 +3,7 @@ h1 {
 }
 
 #wrapper {
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto; 
 }
  
@@ -13,10 +13,10 @@ h1 {
   height: 25px;
   border-radius: 5px;
   font-size: 15px;
+  padding-left: 5px;
 }
 
 #input-section {
-  display: block;
   background: lightgrey;
   padding: 25px 5px 35px;
   border-radius: 10px;
@@ -25,21 +25,17 @@ h1 {
   text-align: center;
 }
 
-#input-section input,
 #input-section p {
   display: inline;
   margin: 0 15px 0 10px;
 }
-  
-#button-section {
-  display: block;
-}
-  
+ 
 #calculate-change {
+  display: block;
   background-color: orange;
   height: 60px;
   width: 175px;
-  margin: 10px 43%;
+  margin: 20px auto;
   font-size: 20px;
   font-style: italic;
 }
@@ -55,7 +51,7 @@ h1 {
 
 #coins-section {
   background-color: lightgrey;
-  padding: 40px 0 40px;
+  padding: 40px 50px 40px 0;
   border-radius: 10px;
   margin: 20px 0;
   text-align: center;
@@ -63,6 +59,7 @@ h1 {
 
 #coins-section h1 {
   display: inline;
+  margin-right: auto;
   padding: 25px 50px 25px 75px;
 }
 
@@ -70,10 +67,5 @@ h1 {
 #dollars-section p {
   font-size: 25px;
   display: inline;
- }
-
- footer {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10%;
+  margin-right: auto;
  }
