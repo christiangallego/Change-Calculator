@@ -12,17 +12,17 @@ This project calculates the change due from a sale and displays the result in US
 
 ### Installing
 
-Clone this repository by running the following command on terminal:
+Clone this repository by running the following command in your terminal:
 
 `git clone git@github.com:christiangallego/Change-Calculator.git`
 
-Then download the project dependencies by running:
+Then download the project dependencies by running this command in your terminal:
 
 `npm install`
 
-Finally, launch index.html in the terminal or simply open ./index.html in your browser of choice.
+Finally, launch index.html or simply open ./index.html in your browser of choice.
 
-### Testing
+## Testing
 
 To run the tests:
 
