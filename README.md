@@ -20,10 +20,4 @@ Then download the project dependencies by running this command in your terminal:
 
 `npm install`
 
-Finally, launch index.html or simply open ./index.html in your browser of choice.
-
-## Testing
-
-To run the tests:
-
-`npm test`
+Finally, launch `index.html` or simply open `./index.html` in your browser of choice.
